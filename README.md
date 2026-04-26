@@ -26,7 +26,7 @@ Employee salary calculation system
 Manager control panel (add employees, guests, view hotel data)
 
 
-##Use Cases:
+## Use Cases:
 1. Guest Room Booking
 A guest logs into the system, views available rooms, selects a room, and enters the number of stay days. The system then creates a booking, marks the room as unavailable, and generates a room bill automatically.
 
@@ -46,9 +46,9 @@ The manager can log in to manage the entire system. They can add new employees, 
 After using hotel services, guests can submit ratings and written reviews. These reviews are stored in the system and can be viewed by the hotel for feedback and improvement.
 
 
-##How to use the system:
+## How to use the system:
 
-###1. Role Selection (Login Screen)
+### 1. Role Selection (Login Screen)
 You will be prompted:
 Login as (g=Guest, e=Employee, m=Manager):
 Enter one of the following:
@@ -60,7 +60,7 @@ Email
 Password
 If credentials are correct, you will be logged into that role’s system.
 
-###2. Guest Usage (Customer Side)
+### 2. Guest Usage (Customer Side)
 Once logged in as a Guest, the system first shows available rooms and allows booking.
 After booking, the guest can access a menu system with options such as:
 Guest Menu Options:
@@ -78,7 +78,7 @@ System automatically generates a booking
 A bill is created based on room price × days
 VIP discount is automatically applied if applicable (after multiple bookings)
 
-###3. Employee Usage (Staff Side)
+### 3. Employee Usage (Staff Side)
 After logging in as an Employee, the system allows staff operations:
 Employee Menu Options:
 View personal details (department, shift, salary, etc.)
@@ -87,7 +87,7 @@ Add new items to hotel café menu
 Logout
 Employees help manage hotel services and expand café offerings.
 
-###4. Manager Usage (Admin Control)
+### 4. Manager Usage (Admin Control)
 After logging in as a Manager, full administrative access is granted.
 Manager Menu Options:
 View manager profile and access level
@@ -104,7 +104,7 @@ Features
 Logout
 Managers act as system administrators with full control over hotel operations.
 
-###5. Booking, Billing & Payment Flow
+### 5. Booking, Billing & Payment Flow
 Every booking automatically generates a RoomBill
 Extra services like food generate ServiceBills
 Final bill is calculated as:
@@ -113,7 +113,7 @@ Payment types supported:
 Cash Payment
 Payments can be linked directly to a booking using system functions.
 
-6. Hotel Features System
+### 6. Hotel Features System
 The hotel also includes additional features:
 Swimming pool
 Gym access
@@ -122,8 +122,8 @@ Customer review system
 These enhance the simulation of a real hotel environment.
 
 
-##Assumptions & Limitations:
-###Assumptions:
+## Assumptions & Limitations:
+### Assumptions:
 Maximum limits are fixed:
 20 rooms
 20 bookings
@@ -134,14 +134,14 @@ Maximum limits are fixed:
 Login credentials are pre-stored in program
 Each guest has one active booking session at a time
 
-###Limitations:
+### Limitations:
 No real security (passwords stored in plain text)
 Fixed array sizes (no dynamic memory / STL vectors)
 No concurrency support (single-user simulation only)
 UI is console-based only (no GUI)
 No card and online payment 
 
-##Instructions on How to Compile the Project:
+## Instructions on How to Compile the Project:
 
 This project is written in C++ and can be compiled using any standard C++ compiler such as g++, CodeBlocks, Dev-C++, or Visual Studio.
 First, save the source code file with a .cpp extension, for example:
@@ -154,7 +154,7 @@ hotel_system.exe (on Windows)
 hotel_system (on Linux/Mac)
 Make sure that g++ is properly installed and added to your system path before compiling.
 
-##Instructions on How to Run the Project:
+## Instructions on How to Run the Project:
 
 After compiling the program successfully, you can run the executable file.
 On Windows, type:
